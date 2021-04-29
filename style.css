@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+} 
+
+nav {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+section {
+    border: 1px solid black;
+}
+#logo img:hover {
+    zoom: 120%;
+}
+
+#logo > a:hover {
+    border-bottom: 5px solid black;
+    font-size: 150%;
+}
