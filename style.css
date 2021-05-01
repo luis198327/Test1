@@ -4,20 +4,61 @@
     border: none;
 } 
 
-nav {
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+header {
     margin: 5px;
     padding: 5px;
-    border: 1px solid black;
 }
 
-section {
-    border: 1px solid black;
-}
-#logo img:hover {
-    zoom: 120%;
+/* Headings */
+
+h1, h2 {
+    font-family: 'Open-sans', sans-serif;
+    letter-spacing: 4px;
 }
 
-#logo > a:hover {
-    border-bottom: 5px solid black;
-    font-size: 150%;
+/* Logo */
+
+#logo {
+    float: left;
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+header img:hover {
+    zoom: 110%;
+}
+
+/* Navigational links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 50px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 110%;
 }
