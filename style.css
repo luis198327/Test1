@@ -1,16 +1,7 @@
-* {
-    margin: 5px;
-    padding: 0px;
-    border: none;
-} 
 
 body {
     font-family: 'Montserrat', sans-serif;
     color: black;
-}
-
-header {
-    padding: 5px;
 }
 
 /* Headings */
@@ -43,6 +34,7 @@ header img:hover {
 
 #menu, #logo {
     line-height: 50px;
+    padding: 5px 5px;
 }
 
 #menu li {
@@ -68,7 +60,6 @@ header img:hover {
     height: 500px;
     width: 100%;
     overflow: hidden;
-    margin: 10px;
     border: 1px solid black;
 }
 
@@ -88,40 +79,28 @@ header img:hover {
 /*Services section */
 
 #services {
-    height: 300px;
     width: 100%;
-    border: 2px solid black;
-    padding: 20px;
-    }
+    height: 350px;
+    background: url('green-field.jpeg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;;
+}
 
-#beginner {
-    height: 200px;
-    width: 25%;
-    display: inline;
-    text-align: center;
-    background: rgb(0, 183, 255);
-    margin-right: 50px;
-}   
+#services div {
+width: 25%;
+height: 350px;
+float: left;
+padding: 5px;
+box-sizing: border-box;
+border: 1px solid black;
+text-align: center;
+}
 
-#intermediate {
-    height: 200px;
-    width: 25%;
-    text-align: center;
-    background: rgb(0, 183, 255);
-    margin-right: 50px;
-    display: inline;
-} 
-
-#advanced {
-    height: 200px;
-    width: 25%;
-    display: inline;
-    text-align: center;
-    background: rgb(0, 183, 255);
-    margin-right: 50px;
-} 
 #services ul {
-    list-style-position: inside;
     text-align: left;
-    
+    list-style-type: square;
+}
+#services div:hover {
+    background: #fff;
 }
