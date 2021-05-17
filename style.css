@@ -6,18 +6,52 @@ body {
     border: none;
 }
 
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: DodgerBlue;
+    justify-content: center;
+  }
+  
+  nav img {
+      max-width: 100px;
+      max-height: 100px;
+      margin: 10px;
+      padding: 2px;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    padding: 2px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .flex-container a {
+      text-decoration: none;
+  }
+ 
+/*
 #option-section {
     padding: 10px;
     background-color: red;
     height: 600px;
 }
 
+#option-section > .option-boxes {
+    position: relative;
+}
+
 .option-boxes {
-    height: 350px;
+    min-height: 350px;
     width: 30%;
     display: inline-block;
     margin: 5px;
     padding: 2px;
+    position: absolute;
 
 }
     #services {
